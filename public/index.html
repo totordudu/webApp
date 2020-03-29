@@ -20,12 +20,13 @@
     <nav class="nav-fixed arduino_orange">
         <div class="nav-wrapper">
             <a id="logo-container" href="#" class="brand-logo left">
-                <i href="#" data-target="slide-out" id="button-collapse" class="sidenav-trigger material-icons" style="margin-left: 10px; font-size: 3rem!important;">menu</i>
+                <i href="#" data-target="slide-out" id="button-collapse" class="sidenav-trigger material-icons"
+                    style="margin-left: 10px; font-size: 3rem!important;">menu</i>
                 <span class="app_title translatable_title">Botly-Studio</span>
                 <span class="sketch_name_wrapper">
-          <input id="sketch_name" class="sketch_name" type="text">
-          <i class="material-icons right">edit</i>
-        </span>
+                    <input id="sketch_name" class="sketch_name" type="text">
+                    <i class="material-icons right">edit</i>
+                </span>
             </a>
             <!-- Horizontal Navbar links only shown on large resolutions -->
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -51,7 +52,8 @@
                 </li>
                 <li>
                     <div class="direction-top">
-                        <a id="info" class="waves-effect waves-light btn btn-floating"><i class="material-icons">bubble_chart</i></a>
+                        <a id="info" class="waves-effect waves-light btn btn-floating"><i
+                                class="material-icons">bubble_chart</i></a>
                     </div>
 
                 </li>
@@ -60,10 +62,12 @@
     </nav>
 
     <!-- Assistant -->
-    <div class="tap-target arduino_teal" data-target="info" style="text-align: right; line-height: 130%; color : white;">
+    <div class="tap-target arduino_teal" data-target="info"
+        style="text-align: right; line-height: 130%; color : white;">
         <div class="tap-target-content">
             <h5>Merci d'avoir testé la Beta</h5>
-            <p>Vous utilisez actuellement une version de Botly-Studio toujours en developpement. Celle-ci peut contenir encore quelques bugs. N'hésitez pas à nous faire vos retours pour les signaler</p>
+            <p>Vous utilisez actuellement une version de Botly-Studio toujours en developpement. Celle-ci peut contenir
+                encore quelques bugs. N'hésitez pas à nous faire vos retours pour les signaler</p>
         </div>
     </div>
 
@@ -92,8 +96,8 @@
                 </li>
                 <li id="menu_delete">
                     <a href="#"><span class="translatable_deleteAll">Tout supprimer</span>
-            <i class="medium material-icons left" style="line-height: 2">delete_forever</i>
-          </a>
+                        <i class="medium material-icons left" style="line-height: 2">delete_forever</i>
+                    </a>
                 </li>
                 <li id="menu_settings">
                     <a href="#settings_dialog" class="waves-effect waves-light modal-trigger">
@@ -114,9 +118,11 @@
                     </a>
                 </li>
                 <li id="menu_buy">
-                    <a href="https://botly.lamachinerie.org/le-robot#h.p_v9t3YdFtEHBD" class="btn" style="margin : 0px !important;">
+                    <a href="https://botly.lamachinerie.org/le-robot#h.p_v9t3YdFtEHBD" class="btn"
+                        style="margin : 0px !important;">
                         <span class="translatable_settings">Pré-commander</span>
-                        <i class="medium material-icons" style="line-height: 2; margin-right:0px !important;">shopping_cart</i>
+                        <i class="medium material-icons"
+                            style="line-height: 2; margin-right:0px !important;">shopping_cart</i>
                     </a>
                 </li>
             </ul>
@@ -127,22 +133,35 @@
     <!-- Content -->
     <div class="container">
         <div class="row" style="margin-bottom: 0;">
-            <div class="col s12 m12 l8 xl8" style="position:relative">
+            <div class="col s12 m12 l6 xl6" style="position:relative">
                 <!-- IDE action buttons -->
                 <div style="position: absolute; width: 100%; height: 70px; top: -40px;">
-                    <div id="ide_buttons_wrapper" class="fixed-action-btn horizontal direction-left" style="position: absolute; display: inline-block; height: 100%; right: 45px; top: 15px; z-index: 12;">
+                    <div id="ide_buttons_wrapper" class="fixed-action-btn horizontal direction-left"
+                        style="position: absolute; display: inline-block; height: 100%; right: 45px; top: 15px; z-index: 12;">
 
-                        <a id="floating_one" class="waves-effect waves-light waves-circle btn-floating btn-large arduino_orange" style="display: none;"><i id="floating_one_icon" class="large material-icons left"></i></a>
+                        <a id="floating_one"
+                            class="waves-effect waves-light waves-circle btn-floating btn-large arduino_orange"
+                            style="display: none;"><i id="floating_one_icon" class="large material-icons left"></i></a>
                         <ul>
-                            <li><a id='floating_six' class='waves-effect waves-light waves-circle btn-floating z-depth-1-half arduino_yellow'><i id="floating_six_icon" class='material-icons small'></i></a>
+                            <li><a id='floating_six'
+                                    class='waves-effect waves-light waves-circle btn-floating z-depth-1-half arduino_yellow'><i
+                                        id="floating_six_icon" class='material-icons small'></i></a>
                             </li>
-                            <li><a id='floating_five' class='waves-effect waves-light waves-circle btn-floating z-depth-1-half arduino_yellow'><i id="floating_five_icon" class='material-icons small'></i></a>
+                            <li><a id='floating_five'
+                                    class='waves-effect waves-light waves-circle btn-floating z-depth-1-half arduino_yellow'><i
+                                        id="floating_five_icon" class='material-icons small'></i></a>
                             </li>
-                            <li><a id="floating_four" class="waves-effect waves-light waves-circle btn-floating z arduino_orange"><i id="floating_four_icon" class="material-icons small"></i></a>
+                            <li><a id="floating_four"
+                                    class="waves-effect waves-light waves-circle btn-floating z arduino_orange"><i
+                                        id="floating_four_icon" class="material-icons small"></i></a>
                             </li>
-                            <li><a id="floating_three" class="waves-effect waves-light waves-circle btn-floating  arduino_blue"><i id="floating_three_icon" class="material-icons small"></i></a>
+                            <li><a id="floating_three"
+                                    class="waves-effect waves-light waves-circle btn-floating  arduino_blue"><i
+                                        id="floating_three_icon" class="material-icons small"></i></a>
                             </li>
-                            <li><a id="floating_two" class="waves-effect waves-light waves-circle btn-floating  arduino_red"><i id="floating_two_icon" class="material-icons small"></i></a>
+                            <li><a id="floating_two"
+                                    class="waves-effect waves-light waves-circle btn-floating  arduino_red"><i
+                                        id="floating_two_icon" class="material-icons small"></i></a>
                             </li>
                         </ul>
 
@@ -201,8 +220,10 @@
                         <div id="content_blocks" class="content"></div>
                     </div>
                 </div>
+
+
             </div>
-            <div class='col s12 m12 l4 xl4'>
+            <div class='col s12 m12 l6 xl6'>
                 <div class='card-panel white playground_panel_large' style='padding: 0' id="playground">
                     <div class="row" style="height: 100% - 48px;">
                         <div class="col s12">
@@ -284,9 +305,9 @@
         </div>
         <div class="modal-footer">
             <a id="gen_alert_ok_link" href="#" class="waves-effect btn-flat modal-close"><span
-          class="translatable_okay">Okay</span></a>
+                    class="translatable_okay">Okay</span></a>
             <a id="gen_alert_cancel_link" href="#" class="waves-effect btn-flat modal-close"><span
-          class="translatable_cancel">Cancel</span></a>
+                    class="translatable_cancel">Cancel</span></a>
         </div>
     </div>
 
@@ -298,9 +319,9 @@
         </div>
         <div class="modal-footer">
             <a id="gen_prompt_ok_link" href="#" class="waves-effect btn-flat modal-close"><span
-          class="translatable_okay">Valider</span></a>
+                    class="translatable_okay">Valider</span></a>
             <a id="gen_prompt_cancel_link" href="#" class="waves-effect btn-flat modal-close"><span
-          class="translatable_cancel">Annuler</span></a>
+                    class="translatable_cancel">Annuler</span></a>
         </div>
     </div>
 </body>
